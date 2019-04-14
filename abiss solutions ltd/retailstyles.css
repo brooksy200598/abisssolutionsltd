@@ -1,0 +1,174 @@
+@font-face {
+	font-family: London MM;
+	src: url("LondonMM.ttf");
+}
+
+body {
+	font-family: London MM;
+	margin: 0;
+	padding: 0;
+	background: white;
+	text-align: center;
+}
+
+div [class^="col-"] {
+	float: left;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.topnav {
+	background-color: rgb(17,123,191);
+	overflow: hidden;
+	margin-top: -50px;
+}
+
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.topnav a:hover {
+	background-color: white;
+	color: rgb(17,123,191);
+}
+
+.tabs {
+	display: flex;
+}
+
+.installation, .retail, .joinery, .shopfitting, .showrooms, .commercial, .pm, .audit, .design {
+	flex: 1;
+}
+
+.installation img, .retail img, .joinery img {
+	width: 100%;
+}
+
+.installation {
+	background-color: rgb(246,133,75);
+	color: white;
+}
+
+.retail {
+	background-color: rgb(17,123,191);
+	color: white;
+}
+
+.joinery {
+	background-color: rgb(5,79,154);
+	color: white;
+}
+
+.contact {
+	background-color: white;
+	color: black;
+}
+
+.banner {
+	width: 30%;
+	margin-bottom: -13px;
+	margin-left: -30px;
+	margin-top: 50px;
+}
+
+img {
+	width: 80%;
+}
+
+.button {
+	background-color: inherit;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.button:hover {
+	background-color: white;
+	color: rgb(17,123,191);
+}
+
+.shopfitting, .showrooms {
+	background-color: rgb(17,123,191);
+	color: white;
+}
+
+.commercial, .pm {
+	background-color: rgb(17,123,191);
+	color: white;
+}
+
+.audit, .design {
+	background-color: rgb(17,123,191);
+	color: white;
+}
+
+p {
+	padding: 10px;
+}
+
+hr {
+	border-color: black;
+}
+
+@media (max-width: 736px) {
+	.banner, .banner center img {
+		width: 100%;
+	}
+}
